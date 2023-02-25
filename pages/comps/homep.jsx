@@ -1,11 +1,5 @@
 import Link from 'next/link'
-import AOS from 'aos'
-import 'aos/dist/aos.css'
-import { useEffect } from 'react'
 const Homep = () => {
-	useEffect(()=>{
-		AOS.init({duration: 2000})
-	})
   return (
 	<section className="text-layer" data-aos="fade-left">
 	<h1>Hey Babe,</h1>
