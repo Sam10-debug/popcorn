@@ -1,0 +1,34 @@
+
+body{
+	/* background-color: red; */
+	padding: 1rem;
+	min-height: 100vh;
+}
+
+.text-layer{
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-style: italic;
+}
+.btn-div{
+	display: flex;
+	justify-content: space-around;
+	padding-block: 10px;
+}
+.second{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.second {
+	font-style: italic;
+}
+.third{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-style: italic;
+}
